@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(22, 22, 51);
+    height: 120px;
+    width: 100%;
+}
+.imagen{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height:120px;
+    margin-left:30px;
+}
+body{
+    background-color: rgb(255, 242, 220);
+}
+.titulo{
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: 'Pacifico';
+    padding-left:10px;
+}
+#video{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: max-content;
+}
+.video{
+    background-color: white;
+    width: max-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+.informacion-video{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.iniciar{
+    width:100%;
+    height:100%;
+    position:absolute;
+    font-size:100px;
+    z-index:100;
+}
+#contenido{
+font-family: 'Pacifico';
+font-size: 22px;
+}
+.texto{
+    font-family: 'Pacifico';
+    font-size: 30px;
+}
+.logo{
+    display:flex;
+    width:80px;
+    height:80px;
+    vertical-align: middle;
+}
+.informacion-foto{
+    border: 4px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) { 
+    header{
+        height:60px;
+    }
+    .imagen{
+    height:60px;
+}
+    #video{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+.titulo{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-left:10px;
+}
+.logo{
+    width:40px;
+    height:40px;
+}
+.video{
+    background-color: white;
+    width: max-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+.informacion-video{
+    display: block;
+    justify-content: center;
+    align-items: top;
+}
+#contenido{
+font-family: 'Pacifico';
+font-size: 14px;
+}
+.texto{
+    font-family: 'Pacifico';
+    font-size: 20px;
+}
+}
